@@ -1,0 +1,182 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+h1 {
+  font-size: 2rem;
+}
+h2{
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 64px;
+}
+
+
+.logo {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.logo-icon p {
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding-right: 24px;
+}
+
+header li {
+  display: inline;
+  padding-right: 16px;
+}
+
+header .mobile {
+  display: none;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D2D2D2;
+  width: 100%;
+}
+
+.photo-content{
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.image-container img {
+  max-width: 100%;
+
+}
+
+.main-content {
+  text-align: left;
+  padding-left: 24px;
+  width: 40%;
+}
+
+.info-container {
+  width: 100%;
+  display: flex;
+
+}
+
+.info {
+  width: 65%;
+  padding: 32px 24px;
+}
+
+.info-text {
+  text-align: left;
+  padding-top: 32px;
+}
+
+
+.side-menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.side-menu {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 16px 16px;
+}
+
+.small-photo {
+
+  width: 35%;
+  padding-right: 16px;
+}
+
+.small-photo img {
+  max-width: 100%;
+
+}
+
+.side-menu-text {
+  width: 65%;
+  text-align: left;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #D2D2D2;
+  width: 100%;
+  align-content: center;
+}
+.courses-title {
+  align-items: center;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 32px 72px;
+}
+.courses {
+  width: 30%;
+  background-color: white;
+  margin-bottom: 24px;
+}
+
+.image-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container2 img{
+  max-width: 100%;
+  display: block;
+}
+
+.exhibit {
+  background-color: red;
+  width: 100%
+}
+
+footer {
+  background-color: gray;
+  width: 100%;
+}

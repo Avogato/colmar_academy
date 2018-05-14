@@ -401,10 +401,12 @@ header {
     width: 100%;
     padding: 0;
   }
+
   .image-container2,
   .course-info p {
     display: none;
   }
+
   .courses {
     background-color: #D2D2D2;
     width: 100%;
@@ -479,14 +481,23 @@ footer span {
 }
 
 footer ul {
+  list-style: none;
   margin: 0;
   padding-right: 1.5rem;
 }
 
 footer li {
-  list-style: none;
+  text-decoration: none;
   display: inline;
   padding-left: 1rem;
+}
+
+footer li a {
+  text-decoration: none;
+}
+
+footer li a:visited {
+  color: #3d3d3d;
 }
 
 @media only screen and (max-width: 470px) {
